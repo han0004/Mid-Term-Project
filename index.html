@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>나만의 웹 페이지</title>
+    <title>조수한의 기록</title>
     <style>
         body {
             font-family: Arial, sans-serif; /* 글꼴 스타일 */
             background-color: #f4f4f9; /* 배경 색상 */
             margin: 40px; /* 여백 */
         }
+
+        /* 이미지 간격 추가 */
+        img {
+            margin-right: 20px; /* 오른쪽 여백 추가 */
+        }
+
+        /* 영상 가운데 정렬 */
+        video {
+            display: block;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>안녕하세요.</h1>
+        <h1>VER2023년의 기록</h1>
     </header>
     <section>
-        <h2>이미지 추가하기</h2>
+        <h2>2개의 이미지</h2>
         <img src="image1.jpg" alt="프로필">
+        <!-- 이미지 사이에 공백 추가 -->
         <img src="image2.jpg" alt="일본1">
 
-        <h2>동영상 추가하기</h2>
-        <video width="320" height="240" controls>
+        <h2>2023년의 영상</h2>
+        <video width="800" height="600" controls>
             <source src="video1.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
